@@ -15,11 +15,11 @@ E:/Develop Games/Legends Of Arena/Legends.of.the.Arena
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57410
+57458
 Successfully changed project path to: E:/Develop Games/Legends Of Arena/Legends.of.the.Arena
 E:/Develop Games/Legends Of Arena/Legends.of.the.Arena
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 88.22 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 83.22 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.14f1 (51d2f824827f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.1.14f1/Editor/Data/Resources/UnitySubsystems
@@ -35,91 +35,91 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 2021.1.14f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 2021.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity 2021.1.14f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56320
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56624
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 2021.1.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005150 seconds.
+Registered in 0.004334 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 84.35 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 88.34 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.904 seconds
+- Completed reload, in  1.876 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1904ms)
-		BeginReloadAssembly (84ms)
+	ReloadAssembly (1876ms)
+		BeginReloadAssembly (82ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (536ms)
-			LoadAssemblies (79ms)
+		EndReloadAssembly (530ms)
+			LoadAssemblies (77ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (198ms)
+			SetupTypeCache (192ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (33ms)
-			SetupLoadedEditorAssemblies (245ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (243ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (85ms)
+				RefreshPlugins (88ms)
 				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (114ms)
-				ProcessInitializeOnLoadMethodAttributes (36ms)
+				ProcessInitializeOnLoadAttributes (111ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007860 seconds.
+Registered in 0.007984 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image E:\Develop Games\Legends Of Arena\Legends.of.the.Arena\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image E:\Develop Games\Legends Of Arena\Legends.of.the.Arena\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.344 seconds
+- Completed reload, in  1.354 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1345ms)
-		BeginReloadAssembly (200ms)
+	ReloadAssembly (1355ms)
+		BeginReloadAssembly (192ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (26ms)
-		EndReloadAssembly (1054ms)
-			LoadAssemblies (125ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (1081ms)
+			LoadAssemblies (119ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (410ms)
+			SetupTypeCache (417ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (55ms)
-			SetupLoadedEditorAssemblies (366ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (386ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (84ms)
-				ProcessInitializeOnLoadAttributes (251ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
-				AfterProcessingInitializeOnLoad (16ms)
-				EditorAssembliesLoaded (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (87ms)
+				ProcessInitializeOnLoadAttributes (268ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (17ms)
+				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 1.26 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2946 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 105.6 MB.
 System memory in use after: 105.8 MB.
 
 Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3390.
-Total: 2.737000 ms (FindLiveObjects: 0.383100 ms CreateObjectMapping: 0.133800 ms MarkObjects: 2.131800 ms  DeleteObjects: 0.087100 ms)
+Total: 2.353700 ms (FindLiveObjects: 0.223900 ms CreateObjectMapping: 0.118200 ms MarkObjects: 1.902200 ms  DeleteObjects: 0.108400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -134,121 +134,66 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Materials/LevelOne/SandTextures.jpg
-  artifactKey: Guid(6c5abe35f694c794f8fb6c1c94d56405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/LevelOne/SandTextures.jpg using Guid(6c5abe35f694c794f8fb6c1c94d56405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd53acd13827fcf82e7946ecccfa4b47d') in 0.089936 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000805 seconds.
-  path: Assets/Materials/LevelOne/StepsTexture.jpg
-  artifactKey: Guid(a80331d5183122a41ad1899d6e7b1fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/LevelOne/StepsTexture.jpg using Guid(a80331d5183122a41ad1899d6e7b1fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc880bdb50e027b629652192c5deddfe') in 0.014327 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000916 seconds.
-  path: Assets/Materials/LevelOne/Materials/GoldColor 1.mat
-  artifactKey: Guid(dc35063747f71bd4d9a405d63fdec2bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/LevelOne/Materials/GoldColor 1.mat using Guid(dc35063747f71bd4d9a405d63fdec2bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf8fcb02142621b715312d3ef8b22f0a') in 0.071563 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000816 seconds.
-  path: Assets/Materials/LevelOne/Materials/MetaShield.mat
-  artifactKey: Guid(0ba3bc3760b175d439ec08ea4d7d2f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/LevelOne/Materials/MetaShield.mat using Guid(0ba3bc3760b175d439ec08ea4d7d2f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4c4bc287a56ce9b0c6454e4f308f771') in 0.014068 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.003707 seconds.
-  path: Assets/Materials/LevelOne/Materials/FireOrnamentTexture.mat
-  artifactKey: Guid(02d2e47ecbf96414cab5543304c51a4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/LevelOne/Materials/FireOrnamentTexture.mat using Guid(02d2e47ecbf96414cab5543304c51a4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6341a4f2190b092539bd4f20ff8e637e') in 0.018224 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.002079 seconds.
-  path: Assets/Materials/LevelOne/Materials
-  artifactKey: Guid(bce71cd804121c044b06c2d0fb109b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/LevelOne/Materials using Guid(bce71cd804121c044b06c2d0fb109b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b508b32093316d6c52d0d48075a7443') in 0.005519 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.001586 seconds.
-  path: Assets/Materials/LevelOne/FireOrnamentTexture.png
-  artifactKey: Guid(bf0619aa9b9841d448a2745071685564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/LevelOne/FireOrnamentTexture.png using Guid(bf0619aa9b9841d448a2745071685564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '760440ac62d1e52c66dc87520483ca2f') in 0.018255 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.001714 seconds.
-  path: Assets/Materials/LevelOne/Materials/MetalRusted.mat
-  artifactKey: Guid(8c021e2400353e849982eca3fa88a30f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/LevelOne/Materials/MetalRusted.mat using Guid(8c021e2400353e849982eca3fa88a30f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e22bb4b49c1f63949958a3dac9d3968f') in 0.014423 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000954 seconds.
-  path: Assets/Materials/LevelOne/Materials/MetalSword.mat
-  artifactKey: Guid(0229fc14700888449ab151c08cfc44a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/LevelOne/Materials/MetalSword.mat using Guid(0229fc14700888449ab151c08cfc44a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bd028ba26d1bd8a9b226f6666105cea') in 0.015948 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.001081 seconds.
-  path: Assets/Materials/LevelOne/InsideRommTexture.jpg
-  artifactKey: Guid(e3f75d9feb0f032458e62e9adbd1476c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/LevelOne/InsideRommTexture.jpg using Guid(e3f75d9feb0f032458e62e9adbd1476c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e8c83aa34d768e154c9d6376cb88d8a') in 0.014315 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.001573 seconds.
-  path: Assets/Materials/LevelOne/Materials/GoldColorShields.mat
-  artifactKey: Guid(21d420dfbf6a44b4c8ded0b303fcd32b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/LevelOne/Materials/GoldColorShields.mat using Guid(21d420dfbf6a44b4c8ded0b303fcd32b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ca18cbe6bca85399d412d5998b2d010') in 0.223934 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.001468 seconds.
-  path: Assets/Materials/LevelOne/woodShield.jpg
-  artifactKey: Guid(4c612834f99fb524db8f05130eabc67e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/LevelOne/woodShield.jpg using Guid(4c612834f99fb524db8f05130eabc67e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2485726b4915f4e76224472aff104a52') in 0.016585 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000827 seconds.
-  path: Assets/Materials/LevelOne
-  artifactKey: Guid(8cb1b7693a440a847a40d5e2f952957b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/LevelOne using Guid(8cb1b7693a440a847a40d5e2f952957b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64f52fe3b646ce598ea6316b13d33e90') in 0.005134 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.001849 seconds.
-  path: Assets/Materials/LevelOne/FlorrRooms.jpg
-  artifactKey: Guid(b1db048eee2bc65428377d605f82a966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/LevelOne/FlorrRooms.jpg using Guid(b1db048eee2bc65428377d605f82a966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00d42dc9e80fe4a4deaa7eb9d6d86888') in 0.015832 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000932 seconds.
-  path: Assets/Materials/LevelOne/Materials/GreenMetal.mat
-  artifactKey: Guid(e927aebb514cd5e44902ac22b286ae65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/LevelOne/Materials/GreenMetal.mat using Guid(e927aebb514cd5e44902ac22b286ae65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f792e88ec774a33a458919f51fd3246') in 0.014593 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000862 seconds.
-  path: Assets/Materials/LevelOne/BricksCol.jpg
-  artifactKey: Guid(231194508c1905140bd5611c2545405e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/LevelOne/BricksCol.jpg using Guid(231194508c1905140bd5611c2545405e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd964f1084cf0ac65ccf55606a5f1aa97') in 0.013734 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.210866 seconds.
-  path: Assets/Models/LevelOne
-  artifactKey: Guid(4d12e1bee96158744a476f1ca7ee9c19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/LevelOne using Guid(4d12e1bee96158744a476f1ca7ee9c19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e2341c459ecda2efe9740db3e444155') in 0.003346 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.052371 seconds.
-  path: Assets/Models/LevelOne/Box.fbx
-  artifactKey: Guid(aa44cf0d48423494fab2df58e664be99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/LevelOne/Box.fbx using Guid(aa44cf0d48423494fab2df58e664be99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a220618a840e8453f6c8942dd525f91') in 0.113172 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000873 seconds.
-  path: Assets/Models/LevelOne/LelevOne.fbx
-  artifactKey: Guid(04c5d5d1606fd904983a77f20ad89851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/LevelOne/LelevOne.fbx using Guid(04c5d5d1606fd904983a77f20ad89851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a977668b036e3b32440d76c90746d2e') in 0.943438 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000939 seconds.
   path: Assets/Models/LevelOne/LevelOne.fbx
   artifactKey: Guid(fe713bc405b24384ea167cd0b8446e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/LevelOne/LevelOne.fbx using Guid(fe713bc405b24384ea167cd0b8446e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37f076d23024f7ceeb41c243be4909c8') in 0.824962 seconds 
+Start importing Assets/Models/LevelOne/LevelOne.fbx using Guid(fe713bc405b24384ea167cd0b8446e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37f076d23024f7ceeb41c243be4909c8') in 0.755896 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011409 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Develop Games\Legends Of Arena\Legends.of.the.Arena\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Develop Games\Legends Of Arena\Legends.of.the.Arena\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.184 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1185ms)
+		BeginReloadAssembly (143ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (44ms)
+		EndReloadAssembly (961ms)
+			LoadAssemblies (116ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (391ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (314ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (63ms)
+				ProcessInitializeOnLoadAttributes (223ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2940 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 109.6 MB.
+System memory in use after: 109.9 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3435.
+Total: 2.783000 ms (FindLiveObjects: 0.217500 ms CreateObjectMapping: 0.189800 ms MarkObjects: 2.328700 ms  DeleteObjects: 0.046100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
