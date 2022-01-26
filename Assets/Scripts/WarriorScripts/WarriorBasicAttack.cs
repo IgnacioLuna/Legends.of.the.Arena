@@ -4,11 +4,16 @@ using UnityEngine;
 
 public class WarriorBasicAttack : GeneralBasicAttack
 {
-    [SerializeField] private Animator swordAnim;
+    private Animator anim;
+
+    private void Start()
+    {
+        anim = GetComponent<Animator>();
+    }
 
     protected override void BasicAttack()
     {
         base.BasicAttack();
-        swordAnim.SetTrigger("Attack");
+        anim.SetTrigger("Attack");
     }
 }
