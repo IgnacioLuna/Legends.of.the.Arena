@@ -15,7 +15,8 @@ ModelImporter:
     resampleCurves: 1
     optimizeGameObjects: 0
     motionNodeName: 
-    rigImportErrors: 
+    rigImportErrors: "Invalid Avatar Rig Configuration. Missing or invalid transform:\n\tRequired
+      human bone 'Hips' not found\n"
     rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
@@ -23,7 +24,7 @@ ModelImporter:
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
     importConstraints: 0
-    animationCompression: 1
+    animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
@@ -77,7 +78,117 @@ ModelImporter:
   humanDescription:
     serializedVersion: 3
     human: []
-    skeleton: []
+    skeleton:
+    - name: Rudolf(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ARMS
+      parentName: Rudolf(Clone)
+      position: {x: -0.18190634, y: 0.35811916, z: -0.027915217}
+      rotation: {x: 0.7068372, y: -0.019527147, z: -0.01952713, w: 0.70683706}
+      scale: {x: 1.810565, y: 1.8105649, z: 1.810565}
+    - name: LEGS
+      parentName: Rudolf(Clone)
+      position: {x: 0.000000006888864, y: 0.16355658, z: -0.007070784}
+      rotation: {x: 0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BOOTS
+      parentName: Rudolf(Clone)
+      position: {x: -0.04413659, y: 0.045493193, z: 0.00029997627}
+      rotation: {x: 0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: SOLE
+      parentName: Rudolf(Clone)
+      position: {x: -0.045148008, y: 0.007182587, z: 0.017480347}
+      rotation: {x: 0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 0.9237152, y: 0.9237152, z: 0.9237152}
+    - name: PANTSLEATHER
+      parentName: Rudolf(Clone)
+      position: {x: 0.000000048428774, y: 0.18293817, z: -0.014739556}
+      rotation: {x: 0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1.6696178, y: 1.6696178, z: 1.6696178}
+    - name: BELT
+      parentName: Rudolf(Clone)
+      position: {x: -0.000000022351742, y: 0.22671407, z: -0.007822972}
+      rotation: {x: 0.7827551, y: 0.30895302, z: -0.14427562, w: 0.5206026}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BODY
+      parentName: Rudolf(Clone)
+      position: {x: 0.000016275793, y: 0.32981902, z: -0.007688914}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.055527974, y: 0.055527974, z: 0.055527974}
+    - name: NIPLES
+      parentName: Rudolf(Clone)
+      position: {x: -0.0000012889504, y: 0.3401618, z: 0.042994827}
+      rotation: {x: 0.37475756, y: 0.29691672, z: 0.68876874, w: 0.54497236}
+      scale: {x: 0.0040979795, y: 0.0040979804, z: 0.0040979795}
+    - name: RIBBONS
+      parentName: Rudolf(Clone)
+      position: {x: 0.008046508, y: 0.32894886, z: -0.006372012}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.101357356, y: 0.101357356, z: 0.101357356}
+    - name: ORNAMENT
+      parentName: Rudolf(Clone)
+      position: {x: 0.005058666, y: 0.32495514, z: 0.07902592}
+      rotation: {x: 0.7221956, y: -0.0052998397, z: 0.0060013896, w: 0.6916425}
+      scale: {x: 0.0141098555, y: 0.014109854, z: 0.014109855}
+    - name: BUNCKLE
+      parentName: Rudolf(Clone)
+      position: {x: -0.0051715, y: 0.2189601, z: 0.045299664}
+      rotation: {x: 0.023136355, y: 0.6398507, z: -0.08098713, w: 0.7638697}
+      scale: {x: 1.2508004, y: 1.2508003, z: 1.2508004}
+    - name: BAG
+      parentName: Rudolf(Clone)
+      position: {x: -0.069660366, y: 0.23199709, z: 0.02073341}
+      rotation: {x: 0.7313092, y: -0.19215406, z: 0.22925973, w: 0.61294675}
+      scale: {x: 1.4079306, y: 1.4079307, z: 1.4079307}
+    - name: GLOVES
+      parentName: Rudolf(Clone)
+      position: {x: -0.3103734, y: 0.3765889, z: -0.023272}
+      rotation: {x: -0.4862588, y: -0.42117658, z: 0.61079866, w: -0.4616142}
+      scale: {x: 1.2508003, y: 1.2508003, z: 1.2508004}
+    - name: HANDS
+      parentName: Rudolf(Clone)
+      position: {x: 0.32073432, y: 0.34799552, z: -0.014400435}
+      rotation: {x: -0.70710516, y: 0.0014965589, z: -0.0014965439, w: 0.7071053}
+      scale: {x: -0.92523855, y: -0.92523855, z: -0.92523855}
+    - name: Wrist
+      parentName: Rudolf(Clone)
+      position: {x: 0.23317182, y: 0.3917779, z: -0.023067858}
+      rotation: {x: -0.0436476, y: -0.0055696666, z: 0.024681602, w: 0.99872655}
+      scale: {x: 0.021988206, y: 0.021988206, z: 0.021988204}
+    - name: HEAD
+      parentName: Rudolf(Clone)
+      position: {x: 0.0019848086, y: 0.47647157, z: -0.0071126586}
+      rotation: {x: 0.72389114, y: 0, z: -0, w: 0.6899142}
+      scale: {x: 0.89095485, y: 0.89095485, z: 0.89095485}
+    - name: EYESBROWS
+      parentName: Rudolf(Clone)
+      position: {x: 0.00016994984, y: 0.4691253, z: 0.036135297}
+      rotation: {x: 0.6455087, y: -0.14556511, z: 0.16493107, w: 0.7313871}
+      scale: {x: 0.008112418, y: 0.008112419, z: 0.008112418}
+    - name: BEARD
+      parentName: Rudolf(Clone)
+      position: {x: 0.0022953711, y: 0.42354268, z: 0.02189162}
+      rotation: {x: 0.7238911, y: 0, z: -0, w: 0.6899143}
+      scale: {x: 1.0284514, y: 1.0284516, z: 1.0284516}
+    - name: HAIR
+      parentName: Rudolf(Clone)
+      position: {x: 0.0019848086, y: 0.47647157, z: -0.0023995824}
+      rotation: {x: 0.72389114, y: 0, z: -0, w: 0.6899142}
+      scale: {x: 1.4076782, y: 1.4076784, z: 1.4076784}
+    - name: EARRING
+      parentName: Rudolf(Clone)
+      position: {x: 0.04326344, y: 0.44350183, z: -0.015748736}
+      rotation: {x: 0, y: 0, z: 0.8510974, w: 0.52500784}
+      scale: {x: 0.04639846, y: 0.04639846, z: 0.046398457}
+    - name: EYES
+      parentName: Rudolf(Clone)
+      position: {x: 0.0015770001, y: 0.45901996, z: 0.023123475}
+      rotation: {x: 0.6455087, y: -0.14556511, z: 0.16493107, w: 0.7313871}
+      scale: {x: 0.008112418, y: 0.008112419, z: 0.008112418}
     armTwist: 0.5
     foreArmTwist: 0.5
     upperLegTwist: 0.5
@@ -88,13 +199,13 @@ ModelImporter:
     globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
-    hasExtraRoot: 0
+    hasExtraRoot: 1
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   autoGenerateAvatarMappingIfUnspecified: 1
-  animationType: 2
+  animationType: 3
   humanoidOversampling: 1
-  avatarSetup: 0
+  avatarSetup: 1
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
   additionalBone: 0
   userData: 

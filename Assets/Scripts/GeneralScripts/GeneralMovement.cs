@@ -24,6 +24,7 @@ public class GeneralMovement : MonoBehaviour
     private void FixedUpdate()
     {
         Movement();
+        
     }
 
     private void Movement()
@@ -32,13 +33,16 @@ public class GeneralMovement : MonoBehaviour
         float vertical = Input.GetAxisRaw("Vertical");
         direction = new Vector3(horizontal, 0f, vertical);
         Vector3 dirNorm = direction.normalized;
-        anim.SetFloat("RunForward", direction.magnitude);
+      
 
+        //anim.SetFloat("RunForward", direction.magnitude);
         //if (horizontal == 0 && vertical == 0)
         //    rb.velocity = Vector3.zero;
 
         if (direction.magnitude >= 0.1f)
             transform.position += dirNorm * speed * Time.deltaTime;
+        anim.SetFloat("AxisX", horizontal);
+        anim.SetFloat("AxisY", vertical);
     }
 
     public float directionMagnitude()
