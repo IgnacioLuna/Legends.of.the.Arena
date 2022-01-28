@@ -1,14 +1,11 @@
 fileFormatVersion: 2
-guid: d9e824957d517dc4f9ac862f619deb57
+guid: 6f2c5b1ef0a1609438db9964cc917a86
 ModelImporter:
   serializedVersion: 21100
   internalIDToNameTable:
   - first:
       74: -203655887218126122
-    second: Great Sword Run (1)
-  - first:
-      74: 6817199593617819491
-    second: Great Sword Run
+    second: mixamo.com
   externalObjects: {}
   materials:
     materialImportMode: 2
@@ -22,13 +19,7 @@ ModelImporter:
     optimizeGameObjects: 0
     motionNodeName: 
     rigImportErrors: 
-    rigImportWarnings: "Copied Avatar Rig Configuration mis-match. Bone length in
-      copied configuration does not match position in animation file:\n\t'mixamorig:LeftUpLeg'
-      : position error = 14.154290 mm\n\t'mixamorig:LeftLeg' : position error = 59.810696
-      mm\n\t'mixamorig:LeftFoot' : position error = 56.790142 mm\n\t'mixamorig:LeftToeBase'
-      : position error = 3.373942 mm\n\t'mixamorig:RightUpLeg' : position error =
-      12.308483 mm\n\t'mixamorig:RightLeg' : position error = 59.293148 mm\n\t'mixamorig:RightFoot'
-      : position error = 56.869041 mm\n"
+    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
@@ -44,11 +35,11 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Great Sword Run
+      name: mixamo.com
       takeName: mixamo.com
       internalID: 0
       firstFrame: 0
-      lastFrame: 18
+      lastFrame: 17
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
