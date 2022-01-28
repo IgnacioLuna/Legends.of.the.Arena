@@ -1,11 +1,14 @@
 fileFormatVersion: 2
-guid: cacba7203e8091349ae0aa3c68d22297
+guid: d8caa214a4a34a54f85c154ce77ed1ce
 ModelImporter:
   serializedVersion: 21100
   internalIDToNameTable:
   - first:
       74: -203655887218126122
-    second: mixamo.com
+    second: Great Sword Slash (2)
+  - first:
+      74: 5892374519696236162
+    second: Great Sword Slash
   externalObjects: {}
   materials:
     materialImportMode: 2
@@ -19,7 +22,13 @@ ModelImporter:
     optimizeGameObjects: 0
     motionNodeName: 
     rigImportErrors: 
-    rigImportWarnings: 
+    rigImportWarnings: "Copied Avatar Rig Configuration mis-match. Bone length in
+      copied configuration does not match position in animation file:\n\t'mixamorig:LeftUpLeg'
+      : position error = 14.154290 mm\n\t'mixamorig:LeftLeg' : position error = 59.810696
+      mm\n\t'mixamorig:LeftFoot' : position error = 56.790142 mm\n\t'mixamorig:LeftToeBase'
+      : position error = 3.373942 mm\n\t'mixamorig:RightUpLeg' : position error =
+      12.308483 mm\n\t'mixamorig:RightLeg' : position error = 59.293148 mm\n\t'mixamorig:RightFoot'
+      : position error = 56.869041 mm\n"
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
@@ -35,18 +44,18 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: mixamo.com
+      name: Great Sword Slash
       takeName: mixamo.com
       internalID: 0
       firstFrame: 0
-      lastFrame: 35
+      lastFrame: 43
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
+      loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
