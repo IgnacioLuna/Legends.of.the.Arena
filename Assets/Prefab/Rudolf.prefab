@@ -2154,6 +2154,7 @@ GameObject:
   - component: {fileID: 2842702944466203572}
   - component: {fileID: 2812456692984636719}
   - component: {fileID: 822662759599275371}
+  - component: {fileID: 3423633447500923964}
   m_Layer: 0
   m_Name: Rudolf
   m_TagString: Untagged
@@ -2254,8 +2255,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eff657d7b3ea8f34ba7c2a225b46bb71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackRate: 0.5
-  swordAnim: {fileID: 0}
+  cooldown: 1
+--- !u!114 &3423633447500923964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3151954868784300951}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 514fa25ec8a3b7d4ea8d79bfba70ecbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cooldown: 5
 --- !u!1 &3170624850787581929
 GameObject:
   m_ObjectHideFlags: 0

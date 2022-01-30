@@ -2,12 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AxeCollisionDetection : MonoBehaviour
+public class SmashCollisionDetection : MonoBehaviour
 {
     private void OnTriggerEnter(Collider other)
     {
         if (other.GetComponent<DummyStats>() == null)
             return;
-        other.GetComponent<DummyStats>().GetDamage(20);
+        other.GetComponent<DummyStats>().GetDamage(50);
     }
 }

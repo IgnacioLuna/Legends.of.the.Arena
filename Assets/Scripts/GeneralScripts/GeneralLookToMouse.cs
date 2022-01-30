@@ -5,7 +5,9 @@ using UnityEngine;
 public class GeneralLookToMouse : MonoBehaviour
 {
     [SerializeField] private Camera mainCamera;
+    private Vector3 pointToLook;
     private Plane groundPlane;
+    private Ray cameraRay;
     private float rayLenght;
     
     void Update()
@@ -15,15 +17,18 @@ public class GeneralLookToMouse : MonoBehaviour
 
     private void LookAtMouse()
     {
-        Ray cameraRay = mainCamera.ScreenPointToRay(Input.mousePosition);
+        cameraRay = mainCamera.ScreenPointToRay(Input.mousePosition);
         groundPlane = new Plane(Vector3.up, Vector3.zero);
-
         if (groundPlane.Raycast(cameraRay, out rayLenght))
         {
-            Vector3 pointToLook = cameraRay.GetPoint(rayLenght);
+            pointToLook = cameraRay.GetPoint(rayLenght);
             Debug.DrawLine(cameraRay.origin, pointToLook, Color.blue);
-
             transform.LookAt(new Vector3(pointToLook.x, transform.position.y, pointToLook.z));
         }
+    }
+
+    public Vector3 GetPointToLook()
+    {
+        return pointToLook;
     }
 }

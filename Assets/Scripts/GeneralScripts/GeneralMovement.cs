@@ -18,31 +18,25 @@ public class GeneralMovement : MonoBehaviour
 
     private void Update()
     {
-        //Debug.Log(transform.localPosition);
+        MoveDirection();
+        Move(MoveDirection().normalized, speed);
     }
 
-    private void FixedUpdate()
+    public void Move(Vector3 moveDir, float speed)
     {
-        Movement();
-        
+        if (direction.magnitude >= 0.1f)
+        {
+            //rb.velocity = moveDir * speed;
+            transform.position += moveDir * speed * Time.deltaTime;
+        }
+        anim.SetFloat("RunForward", direction.magnitude);
     }
 
-    private void Movement()
+    public Vector3 MoveDirection()
     {
         float horizontal = Input.GetAxisRaw("Horizontal");
         float vertical = Input.GetAxisRaw("Vertical");
-        direction = new Vector3(horizontal, 0f, vertical);
-        Vector3 dirNorm = direction.normalized;
-      
-
-        //anim.SetFloat("RunForward", direction.magnitude);
-        //if (horizontal == 0 && vertical == 0)
-        //    rb.velocity = Vector3.zero;
-
-        if (direction.magnitude >= 0.1f)
-            transform.position += dirNorm * speed * Time.deltaTime;
-        anim.SetFloat("AxisX", horizontal);
-        anim.SetFloat("AxisY", vertical);
+        return direction = new Vector3(horizontal, 0f, vertical);
     }
 
     public float directionMagnitude()

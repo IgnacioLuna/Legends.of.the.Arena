@@ -14,6 +14,6 @@ public class WarriorBasicAttack : GeneralBasicAttack
     protected override void BasicAttack()
     {
         base.BasicAttack();
-        anim.SetTrigger("Attack");
+        anim.SetTrigger("BasicAttack");
     }
 }

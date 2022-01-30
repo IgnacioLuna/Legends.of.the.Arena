@@ -23,8 +23,8 @@ public class FourMoveAnimation : MonoBehaviour
     {
         if (gMove.directionMagnitude() >= 0.1)
         {
-            Debug.Log("imMoving");
-            Debug.Log(transform.localRotation.y);
+            //Debug.Log("imMoving");
+            //Debug.Log(transform.localRotation.y);
         }
     }
 }

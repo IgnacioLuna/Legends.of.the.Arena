@@ -2,25 +2,25 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GeneralFirstSkill : MonoBehaviour
+public class GeneralMovementSkill : MonoBehaviour
 {
     [SerializeField] protected float cooldown;
     protected float nextActivation = 0f;
-    
+
     protected virtual void Update()
     {
         if (Time.time >= nextActivation)
         {
-            if (Input.GetKeyDown(KeyCode.F))
+            if (Input.GetKeyDown(KeyCode.LeftShift))
             {
-                FirstSkill();
+                MovementSkill();
                 nextActivation = Time.time + cooldown;
             }
         }
     }
 
-    protected virtual void FirstSkill()
+    protected virtual void MovementSkill()
     {
-        Debug.Log("Im FirstSkilling");
+        Debug.Log("Im MovementSkilling");
     }
 }
