@@ -4,9 +4,12 @@ using UnityEngine;
 
 public class WarriorBasicAttack : GeneralBasicAttack
 {
-    private Animator anim;
+    [SerializeField] protected TrailRenderer trail;
+    [SerializeField] private Collider col;
+    protected Animator anim;
+    protected bool state = false;
 
-    private void Start()
+    protected void Start()
     {
         anim = GetComponent<Animator>();
     }
@@ -15,5 +18,12 @@ public class WarriorBasicAttack : GeneralBasicAttack
     {
         base.BasicAttack();
         anim.SetTrigger("BasicAttack");
+    }
+
+    private void Switch()
+    {
+        state = !state;
+        col.enabled = state;
+        trail.enabled = state;
     }
 }

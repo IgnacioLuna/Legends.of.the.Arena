@@ -4,10 +4,9 @@ using UnityEngine;
 
 public class WarriorFirstSkill : GeneralFirstSkill
 {
+    [SerializeField] protected GameObject firstSkill;
     [SerializeField] protected GameObject smashCollider;
     [SerializeField] protected Transform particlePosition;
-    [SerializeField] protected GameObject firstSkill;
-    [SerializeField] protected float lerpSpeed;
     protected Animator anim;
     protected GeneralMovement movement;
     protected GeneralLookToMouse rotation;

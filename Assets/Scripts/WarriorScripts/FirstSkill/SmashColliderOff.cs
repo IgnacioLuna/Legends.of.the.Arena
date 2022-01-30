@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ColliderOff : MonoBehaviour
+public class SmashColliderOff : MonoBehaviour
 {
     private BoxCollider smashCollider;
 
