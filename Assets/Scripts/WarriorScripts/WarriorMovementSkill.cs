@@ -15,7 +15,7 @@ public class WarriorMovementSkill : GeneralMovementSkill
 
     protected override void MovementSkill()
     {
-        base.MovementSkill();
-        if (Time.time - dashTime)
+        
+
     }
 }
