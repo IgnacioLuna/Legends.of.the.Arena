@@ -10,6 +10,7 @@ public class WarriorFirstSkill : GeneralFirstSkill
     protected Animator anim;
     protected GeneralMovement movement;
     protected GeneralLookToMouse rotation;
+    protected GeneralBasicAttack basicAttack;
     protected Vector3 pointToLook;
     protected bool state = true;
     protected bool colliderMove = false;
@@ -19,6 +20,7 @@ public class WarriorFirstSkill : GeneralFirstSkill
         anim = GetComponent<Animator>();
         movement = GetComponent<GeneralMovement>();
         rotation = GetComponent<GeneralLookToMouse>();
+        basicAttack = GetComponent<GeneralBasicAttack>();
     }
 
     protected override void Update()
@@ -37,6 +39,7 @@ public class WarriorFirstSkill : GeneralFirstSkill
         state = !state;
         movement.enabled = state;
         rotation.enabled = state;
+        basicAttack.enabled = state;
     }
 
     protected void PlayParticle()

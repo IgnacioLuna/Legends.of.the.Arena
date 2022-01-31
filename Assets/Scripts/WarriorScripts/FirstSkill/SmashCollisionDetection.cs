@@ -4,10 +4,12 @@ using UnityEngine;
 
 public class SmashCollisionDetection : MonoBehaviour
 {
+    [SerializeField] private float damage;
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.GetComponent<DummyStats>() == null)
             return;
-        other.GetComponent<DummyStats>().GetDamage(50);
+        other.GetComponent<DummyStats>().GetDamage(damage);
     }
 }

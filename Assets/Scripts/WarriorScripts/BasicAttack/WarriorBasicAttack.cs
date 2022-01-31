@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class WarriorBasicAttack : GeneralBasicAttack
 {
-    [SerializeField] protected TrailRenderer trail;
+    [SerializeField] protected ParticleSystem trail;
     [SerializeField] private Collider col;
     protected Animator anim;
     protected bool state = false;
@@ -20,10 +20,19 @@ public class WarriorBasicAttack : GeneralBasicAttack
         anim.SetTrigger("BasicAttack");
     }
 
-    private void Switch()
+    protected void Switch()
     {
         state = !state;
         col.enabled = state;
-        trail.enabled = state;
+    }
+
+    protected void TrailPlay()
+    {
+        trail.Play();
+    }
+
+    protected void TrailPause()
+    {
+        trail.Stop();
     }
 }
