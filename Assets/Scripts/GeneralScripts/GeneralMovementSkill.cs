@@ -1,20 +1,30 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Photon.Pun;
 
 public class GeneralMovementSkill : MonoBehaviour
 {
     [SerializeField] protected float cooldown;
+    protected PhotonView view;
     protected float nextActivation = 0f;
+
+    protected virtual void Start()
+    {
+        view = GetComponent<PhotonView>();
+    }
 
     protected virtual void Update()
     {
-        if (Time.time >= nextActivation)
+        if (view.IsMine)
         {
-            if (Input.GetKeyDown(KeyCode.LeftShift))
+            if (Time.time >= nextActivation)
             {
-                MovementSkill();
-                nextActivation = Time.time + cooldown;
+                if (Input.GetKeyDown(KeyCode.LeftShift))
+                {
+                    MovementSkill();
+                    nextActivation = Time.time + cooldown;
+                }
             }
         }
     }

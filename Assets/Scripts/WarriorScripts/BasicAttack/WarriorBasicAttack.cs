@@ -9,8 +9,9 @@ public class WarriorBasicAttack : GeneralBasicAttack
     protected Animator anim;
     protected bool state = false;
 
-    protected void Start()
+    protected override void Start()
     {
+        base.Start();
         anim = GetComponent<Animator>();
     }
 

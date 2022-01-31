@@ -15,8 +15,10 @@ public class WarriorFirstSkill : GeneralFirstSkill
     protected bool state = true;
     protected bool colliderMove = false;
 
-    protected void Start()
+    protected override void Start()
     {
+        base.Start();
+        firstSkill = GameObject.Find("SmashAttack");
         anim = GetComponent<Animator>();
         movement = GetComponent<GeneralMovement>();
         rotation = GetComponent<GeneralLookToMouse>();

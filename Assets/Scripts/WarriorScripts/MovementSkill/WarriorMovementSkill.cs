@@ -10,23 +10,27 @@ public class WarriorMovementSkill : GeneralMovementSkill
     protected Vector3 dashDirection;
     //protected float startTime;
     //protected float totalDashTime = 0f;
-   // protected bool isDash;
+    // protected bool isDash;
 
-    protected void Start()
+    protected override void Start()
     {
+        base.Start();
         movement = GetComponent<GeneralMovement>();
     }
 
     protected override void Update()
     {
-        if (Time.time >= nextActivation)
+        if (view.IsMine)
         {
-            if (Input.GetKeyDown(KeyCode.LeftShift))
+            if (Time.time >= nextActivation)
             {
-                dashDirection = movement.MoveDirection().normalized;
-                Debug.Log(dashDirection);
-                StartCoroutine(Dash());
-                nextActivation = Time.time + cooldown;
+                if (Input.GetKeyDown(KeyCode.LeftShift))
+                {
+                    dashDirection = movement.MoveDirection().normalized;
+                    Debug.Log(dashDirection);
+                    StartCoroutine(Dash());
+                    nextActivation = Time.time + cooldown;
+                }
             }
         }
     }

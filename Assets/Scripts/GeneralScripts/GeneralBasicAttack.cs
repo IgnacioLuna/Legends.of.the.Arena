@@ -1,20 +1,30 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Photon.Pun;
 
 public class GeneralBasicAttack : MonoBehaviour
 {
     [SerializeField] protected float cooldown;
+    protected PhotonView view;
     protected float nextActivation = 0f;
+
+    protected virtual void Start()
+    {
+        view = GetComponent<PhotonView>();    
+    }
 
     protected void Update()
     {
-        if (Time.time >= nextActivation)
+        if (view.IsMine)
         {
-            if (Input.GetKeyDown(KeyCode.Mouse0))
+            if (Time.time >= nextActivation)
             {
-                BasicAttack();
-                nextActivation = Time.time + cooldown;
+                if (Input.GetKeyDown(KeyCode.Mouse0))
+                {
+                    BasicAttack();
+                    nextActivation = Time.time + cooldown;
+                }
             }
         }
     }

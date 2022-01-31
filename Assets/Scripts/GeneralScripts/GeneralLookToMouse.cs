@@ -1,23 +1,32 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Photon.Pun;
 
 public class GeneralLookToMouse : MonoBehaviour
 {
-    [SerializeField] private Camera mainCamera;
+    [SerializeField] private GameObject mainCamera;
+    protected PhotonView view;
     private Vector3 pointToLook;
     private Plane groundPlane;
     private Ray cameraRay;
     private float rayLenght;
-    
-    void Update()
+
+    protected void Start()
     {
-        LookAtMouse();
+        mainCamera = GameObject.Find("Camera");
+        view = GetComponent<PhotonView>();
+    }
+
+    protected void Update()
+    {
+        if (view.IsMine)
+            LookAtMouse();
     }
 
     private void LookAtMouse()
     {
-        cameraRay = mainCamera.ScreenPointToRay(Input.mousePosition);
+        cameraRay = mainCamera.GetComponent<Camera>().ScreenPointToRay(Input.mousePosition);
         groundPlane = new Plane(Vector3.up, Vector3.zero);
         if (groundPlane.Raycast(cameraRay, out rayLenght))
         {

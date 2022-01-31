@@ -1,25 +1,31 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Photon.Pun;
 
 public class GeneralMovement : MonoBehaviour
 {
-    [SerializeField] private float speed;
-    private Vector3 direction;
-    private Animator anim;
+    [SerializeField] protected float speed;
+    protected Animator anim;
+    protected PhotonView view;
+    protected Vector3 direction;
     //private Rigidbody rb;
 
 
-    void Start()
+    protected void Start()
     {
         //rb = GetComponent<Rigidbody>();
         anim = GetComponent<Animator>();
+        view = GetComponent<PhotonView>();
     }
 
-    private void Update()
+    protected void Update()
     {
-        MoveDirection();
-        Move(MoveDirection().normalized, speed);
+        if (view.IsMine)
+        {
+            MoveDirection();
+            Move(MoveDirection().normalized, speed);
+        }
     }
 
     public void Move(Vector3 moveDir, float speed)
